@@ -176,7 +176,7 @@ const newMain = () => {
           " บาท "
       );
     }
-    console.log("ทั้งหมด: " + customer1.orders[i].calcSubTotal() + " บาท");
+    console.log("ทั้งหมด: " + customer1.orders[i].calcTotal() + " บาท");
   }
 };
 
